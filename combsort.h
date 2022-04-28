@@ -1,4 +1,5 @@
 #pragma once
+#include <stddef.h>
 /* optimized combsort
 combsort(arr,elems) sort array from smallest to largest
 combsortr(arr,elems) sort array from largest to smallest
