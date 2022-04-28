@@ -2,8 +2,9 @@
 /* optimized combsort
 combsort(arr,elems) sort array from smallest to largest
 combsortr(arr,elems) sort array from largest to smallest
+Usage:arrays <140 elems
 Performance: ~160 cycles per int
-(about 1/4 of radix sort speed,except for small arrays(<140))
+(about 1/4 of radix sort speed)
 */
 #define arrcombsort(arr,elems,dir) ({size_t comb_i,comb_j, combgap=elems,comblen=combgap;\
 do{combgap = combgap<10 ? combgap-1 : ((combgap*796)>>10)+1;\
